@@ -1,7 +1,7 @@
 import openai
 from sentence_transformers import SentenceTransformer
 
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
